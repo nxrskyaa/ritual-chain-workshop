@@ -1,0 +1,12 @@
+
+# === SECURITY: never commit secrets (added by Hermes) ===
+.env
+.env.*
+*.env
+*.key
+*.pem
+*secret*
+.ritual-deploy.env
+/home/ubuntu/.ritual-deploy.env
+hardhat/.env
+**/keystore/**
